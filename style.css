@@ -1,0 +1,289 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+/* DIVS */
+
+#navbar {
+  padding: 0 1.4rem 0 0;
+  justify-content: space-between;
+}
+
+.first-section {
+  display:inline-block;
+  margin-bottom: 1.9rem;
+}
+
+.left-div {
+  margin-top: 1.4rem;
+}
+
+.right-div {
+  text-align: center;
+}
+
+#new-article {
+  display: block;
+}
+
+#intro {
+  margin-top: 1.3rem;
+}
+
+.depositions {
+  font-family: sans-serif;
+  background-color: #181c23;
+}
+
+.comments-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 1rem 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.card {
+  color: #000000;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+footer {
+  padding-top: 10px;
+  background-color: #8274D7;
+  text-align: center;
+}
+
+/* IMAGES */
+
+#logo {
+  width: 160px;
+  height: 160px;
+  padding-top: 0.8rem;
+}
+
+#intro-photo {
+  width: 630px;
+  height: 370px;
+}
+
+.bookImg { 
+  width: 100%;
+  height: 90%;
+  border: 1px solid #000000;
+}
+
+.card-img-top {
+  width: 13rem;
+  height: 13rem;
+}
+
+/* TEXTS */
+
+.anchor {
+  color: #000000;
+  padding-left: 1.3rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+#switchBtn {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  border: 1px solid #000000;
+  padding: 7px 15px;
+  border-radius: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#intro-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.7rem;
+  padding-bottom: 20px;
+}
+
+em {
+  font-size: 1.3rem;
+}
+
+#abouth2 {
+  font-size: 2.9rem;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#origin {
+  font-size: 2.2rem;
+  padding-top: 1.9rem;
+  padding-bottom: 20px;
+}
+
+#originT {
+  font-size: 1.7rem;
+  padding-bottom: 1.3rem;
+}
+
+#nameB {
+  padding-top: 1.3rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.col {
+  text-align: start;
+  margin: 0 0 10px 0;
+  min-height: 460px;
+  min-width: 200px;
+}
+
+.htest {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+h6 {
+  padding-top: 0.5rem;
+  margin-left: 10px;
+}
+
+#d {
+  text-align: center;
+  color: #F5F5F5;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#h {
+  color: #181c23;
+  width: 100vw;
+  height: 3rem;
+}
+
+.iconsF {
+  margin-left: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+#back {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  text-decoration: none;
+  border: 1px solid #000000;
+  padding: 7px 15px;
+  border-radius: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#back:hover {
+  background-image: linear-gradient(90deg, #000000 0%, #141413 49%, #1a1530 80%, #260b3f 100%);
+  animation: slidebg 5s linear infinite;
+  color: #ffffff;
+}
+
+#switchBtn:hover {
+  background-image: linear-gradient(90deg, #000000 0%, #141413 49%, #1a1530 80%, #260b3f 100%);
+  animation: slidebg 5s linear infinite;
+  color: #ffffff;
+}
+
+#div {
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+@media (max-width: 1000px) {
+  #intro-photo {
+    width: 510px;
+    height: 350px;
+  }
+
+  .comments-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 725px) {
+  .anchor {
+    font-size: 1.1rem;
+  }
+
+  #intro-text {
+    font-size: 1.08rem;
+  }
+
+  #originT {
+    font-size: 1.1rem;
+  }
+
+  .comments-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 540px) {
+  #intro-photo {
+    width: 380px;
+    height: 240px;
+  }
+
+  .anchor {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  
+}
+
+@media (max-width: 500px) {
+  .comments-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 475px) {
+  .anchor {
+    font-size: 0.9rem;
+    padding-left: 0.8rem;
+  }
+
+  #logo {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 430px) {
+  #abouth2 {
+    font-size: 2.4rem;
+  }
+
+  #origin {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 405px) {
+  #intro-photo {
+    width: 320px;
+    height: 190px;
+  }
+}
